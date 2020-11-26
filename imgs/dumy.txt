@@ -1,0 +1,25 @@
+<!-- offer/ -->
+        <div class="offer">
+          <div class="iphone">
+            <img src="imgs/iphone.png" alt="" height="400px" width="600px" class="offer-img">
+          </div>
+          <div class="itext">
+            <p>Exclusive Avilable on iStore</p>
+            <h4>iphone12 pro max</h4>
+          </div>
+        </div>
+
+
+        <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="imgs/iphone.png" alt="" class="img-offer" />
+          </div>
+          <div class="col-2">
+            <p>Exclusive Avilable on iStore</p>
+            <h4>iphone 12 pro</h4>
+          </div>
+        </div>
+      </div>
+    </div>

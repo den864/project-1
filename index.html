@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <header>
+    <!-- navbar  -->
+    <nav class="navbar">
+      <div class="logo">
+        <a href="index.html"><span>SPYKAR</span> FASHION</a>
+      </div>
+      <ul class="mid" id="MenuItems">
+        <li><a href="#">Men</a></li>
+        <li><a href="">Women</a></li>
+        <li><a href="">kids</a></li>
+        <li><a href="">indie</a></li>
+        <li><a href="" class="acc">New Arrivals</a></li>
+      </ul>
+
+      <div>
+        <ul class="log-3">
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
+      <i class="fas fa-bars" onclick="menutoggle()"></i>
+    </nav>
+
+    <div class="bod">
+      <div class="row">
+        <div class="col-2">
+          <h1>
+            You are already famous,<br />
+            just put your best clothes on !
+          </h1>
+        </div>
+        <div class="button">
+          <a href=""><h3 style="color: white">Shop Now</h3></a>
+        </div>
+      </div>
+    </div>
+    <!-- img -->
+    <h2 style="text-align: center" class="title">Feautured Products</h2>
+    <div class="small-container">
+      <div class="card">
+        <img src="imgs/jkt2.jpg" alt="" height="300px" width="" />
+        <h4>Black Jacket</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>100$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt1.jpg" alt="" height="300px" width="" />
+        <h4>Yellow Jacket</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>450$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt3.jpg" alt="" height="300px" width="" />
+        <h4>White Adidas</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>60$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt4.jpg" alt="" height="300px" width="" />
+        <h4>Spyker Jacket</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>50$</p>
+      </div>
+    </div>
+
+    <h2 style="text-align: center" class="title">Latest Products</h2>
+
+    <div class="small-container">
+      <div class="card">
+        <img src="imgs/jkt5.jpg" alt="" height="300px" width="" />
+        <h4>Black Jacket</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>100$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt6.jpg" alt="" height="300px" width="" />
+        <h4>Men's Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>450$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt7.jpg" alt="" height="300px" width="" />
+        <h4>White T-shirts</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>60$</p>
+      </div>
+      <div class="card">
+        <img src="imgs/jkt8.jpg" alt="" height="300px" width="" />
+        <h4>Socks</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>50$</p>
+      </div>
+    </div>
+
+    <!-- <h2 style="text-align: center" class="title">Latest Products</h2> -->
+
+    <div class="small-container">
+      <div class="card">
+        <img src="imgs/jkt9.jpg" alt="" height="300px" width="" />
+        <h4>Running Shoes</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>100$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt10.jpg" alt="" height="300px" width="" />
+        <h4>Black Dial Men’s & Boy's Watch</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>450$</p>
+      </div>
+
+      <div class="card">
+        <img src="imgs/jkt11.jpg" alt="" height="300px" width="" />
+        <h4>Men's Straight Fit Regular Casual Trousers</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>60$</p>
+      </div>
+      <div class="card">
+        <img src="imgs/jkt12.jpg" alt="" height="300px" width="" />
+        <h4>CAPS FOR MENS</h4>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+        <p>50$</p>
+      </div>
+    </div>
+
+    <!-- offer/ -->
+
+    <div class="offer">
+      <div class="iphone">
+        <img
+          src="imgs/iphone.png"
+          alt=""
+          height="400px"
+          width="600px"
+          class="offer-img"
+        />
+      </div>
+      <div class="itext">
+        <p>Exclusive Avilable on iStore</p>
+        <h1>iphone12 pro max</h1>
+        <button>Buy Now</button>
+
+        <h3>
+          The iPhone 12 Pro Max is more than just a iPhone 12 Pro with a larger
+          display and battery
+        </h3>
+      </div>
+    </div>
+
+    <!-- comments............ -->
+
+    <div class="comments">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <p>
+              <i class="fa fa-quote-left"></i> <br />
+              Hi there, thanks for your comment. <br />
+              I hope you're enjoying your free <br />
+              trial with Shopify! The easiest way <br />
+              to translate your Shopify store.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"> </i>
+            </div>
+            <img
+              src="  imgs/zyan.jpg"
+              alt=""
+              width="150px"
+              height="150px"
+              style="border-radius: 50%"
+            />
+            <h3>Zayn Malik</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Hi there, thanks for your comment. <br />
+              I hope you're enjoying your free <br />
+              trial with Shopify! The easiest way <br />
+              to translate your Shopify store.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"> </i>
+            </div>
+            <img
+              src="  imgs/zyan.jpg"
+              alt=""
+              width="150px"
+              height="150px"
+              style="border-radius: 50%"
+            />
+            <h3>John Walker</h3>
+          </div>
+
+          <div class="col-3">
+            <i class="fa fa-quote-left"></i>
+            <p>
+              Hi there, thanks for your comment. <br />
+              I hope you're enjoying your free <br />
+              trial with Shopify! The easiest way <br />
+              to translate your Shopify store.
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"> </i>
+            </div>
+            <img
+              src="  imgs/zyan.jpg"
+              alt=""
+              width="150px"
+              height="150px"
+              style="border-radius: 50%"
+            />
+            <h3>Liyorio</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- brands--------------------- -->
+
+    <div class="brands">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-5">
+            <img src="imgs/br111.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="imgs/google.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="imgs/br3.png" alt="" />
+          </div>
+          <div class="col-5">
+            <img src="imgs/br4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- javascript fot toggel menu -->
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </header>
+  <body></body>
+</html>
